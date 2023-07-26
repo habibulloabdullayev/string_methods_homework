@@ -7,4 +7,7 @@ def main(s):
         bool: answer
     """
     
-    return
+    return s.isalpha()
+print(main('12345'))
+print(main('2022ABC'))
+print(main('hello'))
